@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  height: 400px;
+}
+
+.left {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left div {
+  width: 50%;
+}
+.right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right div {
+  width: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}

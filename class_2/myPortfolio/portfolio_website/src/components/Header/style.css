@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+.unOrderedLIst {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+.unOrderedLIst li a {
+  text-decoration: none;
+  color: white;
+}
+input {
+  padding: 3px 10px;
+  border-radius: 6px;
+  border: 1px solid;
+}
