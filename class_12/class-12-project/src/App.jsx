@@ -10,6 +10,7 @@ import Bills from "./pages/Bills";
 import Expenses from "./pages/Expenses";
 import Goals from "./pages/Goals";
 import Setting from "./pages/Sitting";
+import BillsDescription from "./pages/BillsDescription";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/expenses" element={<Expenses />} />
           <Route path="/goals" element={<Goals />} />
           <Route path="/setting" element={<Setting />} />
+          <Route path="/bills/:id" element={<BillsDescription />}></Route>
         </Route>
       </Routes>
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { FaMoneyBillWave } from "react-icons/fa";
 import { MdPayment } from "react-icons/md";
 import { GiTakeMyMoney } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Bills = () => {
   const today = new Date();
@@ -11,6 +12,7 @@ const Bills = () => {
   return (
     <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-sm mx-auto">
       {/* Total Bills */}
+      <Link to="/bills/1">Go to Bill 1</Link>
       <div className="flex justify-between items-center mb-6">
         <div>
           <h1 className="text-2xl font-bold text-gray-800">$5,500</h1>
