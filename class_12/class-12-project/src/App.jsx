@@ -11,10 +11,12 @@ import Expenses from "./pages/Expenses";
 import Goals from "./pages/Goals";
 import Setting from "./pages/Sitting";
 import BillsDescription from "./pages/BillsDescription";
+import Counter from "./components/Counter";
 
 const App = () => {
   return (
     <div>
+      {/* <Counter /> */}
       <Routes>
         <Route element={<DashboardLayout />}>
           <Route path="/" element={<Overview />} />

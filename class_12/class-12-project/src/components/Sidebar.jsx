@@ -16,6 +16,7 @@ const Sidebar = () => {
               <div className="flex items-center  gap-5">
                 <item.icon className="text-xl" />
                 <span className="font-semibold">{item.link}</span>
+                {console.log("item.link")}
               </div>
             </Link>
           ))}
